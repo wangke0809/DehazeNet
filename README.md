@@ -6,9 +6,13 @@ Single image haze removal is a challenging ill-posed problem. Existing methods u
 
 If you use these codes in your research, please cite:
 
+
 	@article{cai2016dehazenet,
 		author = {Bolun Cai, Xiangmin Xu, Kui Jia, Chunmei Qing and Dacheng Tao},
 		title={DehazeNet: An End-to-End System for Single Image Haze Removal},
-		journal={arXiv preprint arXiv:1601.07661},
-		year={2016}
-	}
+      journal={IEEE Transactions on Image Processing},
+      year={2016}, 
+      volume={25}, 
+      number={11}, 
+      pages={5187-5198},
+}
