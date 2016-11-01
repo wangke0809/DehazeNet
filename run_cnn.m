@@ -22,8 +22,8 @@ F1=reshape(F1,size(f1,1),size(f1,2),size(F1,2));
 %% Multi-scale Mapping F2
 F2=zeros(size(F1,1),size(F1,2),48);
 F2(:,:,1:16)=convolution(F1, weights_conv3x3, biases_conv3x3);
-F2(:,:,17:32)=convolution(F1, weights_conv5x5, biases_conv3x3);
-F2(:,:,33:48)=convolution(F1, weights_conv7x7, biases_conv3x3);
+F2(:,:,17:32)=convolution(F1, weights_conv5x5, biases_conv5x5);
+F2(:,:,33:48)=convolution(F1, weights_conv7x7, biases_conv7x7);
 
 %% Local Extremum F3
 F3=convMax(single(F2), 3);
