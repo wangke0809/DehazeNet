@@ -45,6 +45,9 @@ RESIDE benchmark \[1\] is proposed for single image dehazing evaluation, where t
 ![PHSTS](https://raw.githubusercontent.com/caibolun/DehazeNet/master/phsts.jpg)
 
 \[1\] Li B, Ren W, Fu D, et al. RESIDE: A Benchmark for Single Image Dehazing[J]. arXiv preprint arXiv:1712.04143, 2017.
+
 \[2\] Zhu Q, Mai J, Shao L. A fast single image haze removal algorithm using color attenuation prior[J]. IEEE Transactions on Image Processing, 2015, 24(11): 3522-3533.
+
 \[3\] Ren W, Liu S, Zhang H, et al. Single image dehazing via multi-scale convolutional neural networks[C]//European conference on computer vision. Springer, Cham, 2016: 154-169.
+
 \[4\] Li B, Peng X, Wang Z, et al. Aod-net: All-in-one dehazing network[C]//Proceedings of the IEEE International Conference on Computer Vision. 2017: 4770-4778.
